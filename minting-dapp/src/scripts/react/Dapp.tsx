@@ -285,11 +285,6 @@ export default class Dapp extends React.Component<Props, State> {
     return CollectionConfig.marketplaceConfig.generateCollectionUrl(CollectionConfig.marketplaceIdentifier, !this.isNotMainnet());
   }
 
-  private generateTransactionUrl(transactionHash: string): string
-  {
-    return this.state.networkConfig.blockExplorer.generateTransactionUrl(transactionHash);
-  }
-
   private async connectWallet(): Promise<void>
   {
     try {

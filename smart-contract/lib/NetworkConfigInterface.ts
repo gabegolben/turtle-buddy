@@ -4,6 +4,5 @@ export default interface NetworkConfigInterface {
   blockExplorer: {
     name: string;
     generateContractUrl: (contractAddress: string) => string;
-    generateTransactionUrl: (transactionAddress: string) => string;
   };
 };
