@@ -9,7 +9,7 @@ import CollectionStatus from './CollectionStatus';
 import MintWidget from './MintWidget';
 import Whitelist from '../lib/Whitelist';
 
-const ContractAbi = require('../../../../smart-contract/artifacts/contracts/' + CollectionConfig.contractName + '.sol/' + CollectionConfig.contractName + '.json').abi;
+const ContractAbi = require('../../../../smart-contract/artifacts/contracts/TURTLEBUDDY.sol/TURTLEBUDDY.json').abi;
 
 interface Props {
 }
