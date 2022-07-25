@@ -9,7 +9,7 @@
     "url": "https://github.com/hashlips-lab/nft-erc721-collection.git"
   },
   "scripts": {
-    "build-dapp": "cd smart-contract; npm install; npm run compile; cd ../minting-dapp; npm install; npm run build"
+    "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
   },
   "dependencies": {
     "core-js": "^3.21.1"
